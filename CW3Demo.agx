@@ -194,6 +194,8 @@
       <Field FldName="C_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldDbDefault="getdate()" FldCaption="C Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldOrderBy="1" FldOrder="DESC" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
       <Field FldName="M_ID" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldDbDefault="'Admin'" FldCaption="M ID" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentUserName()" FldMultiUpdate="1" />
       <Field FldName="M_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldDbDefault="getdate()" FldCaption="Album Group Name" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
+      <Field FldName="Category" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="LIKE" FldCaption="Category" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="EmailID" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="40" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="LIKE" FldCaption="Email ID" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="40" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
     </Table>
     <Table TblName="tblCpreviews" TblType="TABLE" TblGen="1" TblList="1" TblView="1" TblGridEdit="1" TblEdit="1" TblGridAdd="1" TblAdd="1" TblDelete="1" TblCaption="Customer Previews" TblUpdatable="1" TblSrchType="BASIC" TblSearch="1" TblBasicSearch="1" TblExtendedBasicSearch="1" TblCopy="1" TblLoaded="1" TblShowEmptyRows="0" TblUseGlobal="1" TblRecPerPage="20" TblRecPerPageList="10,20,50,ALL" TblGrpPerPage="3" TblGrpPerPageList="1,2,3,5,ALL" TblPagerStyle="2" TblUseButtonsForLinks="1" TblUseDropDownForAction="1" TblUseDropDownForListOptions="1" TblUseDropDownForExport="1">
       <Field FldName="RSN" FldType="3" FldTypeName="int" NativeDataType="8" FldSupport="1" FldSort="0" FldSize="4" FldUniqueIdx="1" FldReq="1" FldIsPrimaryKey="1" FldAutoIncrement="1" FldValidate="INTEGER" FldRequired="1" FldGenerate="1" FldView="1" FldSrchOpr="USER SELECT" FldCaption="RSN" FldViewTag="FORMATTED TEXT" FldHtmlTag="NO" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldColumnWrap="0" />
@@ -209,6 +211,10 @@
       <Field FldName="C_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldDbDefault="getdate()" FldCaption="C Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldOrderBy="1" FldOrder="DESC" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
       <Field FldName="M_ID" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldDbDefault="'Admin'" FldCaption="M ID" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentUserName()" FldMultiUpdate="1" />
       <Field FldName="M_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldDbDefault="getdate()" FldCaption="M Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
+      <Field FldName="ShadeCode4" FldType="200" FldTypeName="varchar" NativeDataType="22" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="LIKE" FldCaption="Shade Code 4" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="ShadeCode5" FldType="200" FldTypeName="varchar" NativeDataType="22" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="LIKE" FldCaption="Shade Code 5" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="ShadeCode6" FldType="200" FldTypeName="varchar" NativeDataType="22" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="LIKE" FldCaption="Shade Code 6" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="PreviewID" FldType="200" FldTypeName="varchar" NativeDataType="22" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="LIKE" FldCaption="Preview ID" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
     </Table>
     <Table TblName="ANCPTable_210426" TblType="TABLE" TblBasicSearch="1" TblExtendedBasicSearch="1" TblShowEmptyRows="0" TblUseGlobal="1" TblRecPerPage="20" TblRecPerPageList="10,20,50,ALL" TblGrpPerPage="3" TblGrpPerPageList="1,2,3,5,ALL" TblPagerStyle="2" />
     <Table TblName="AllowedShadecode$" TblType="TABLE" TblBasicSearch="1" TblExtendedBasicSearch="1" TblShowEmptyRows="0" TblUseGlobal="1" TblRecPerPage="20" TblRecPerPageList="10,20,50,ALL" TblGrpPerPage="3" TblGrpPerPageList="1,2,3,5,ALL" TblPagerStyle="2" />
@@ -296,6 +302,8 @@
       <Field FldName="C_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldCaption="C Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
       <Field FldName="M_ID" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldCaption="M ID" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentUserName()" FldMultiUpdate="1" />
       <Field FldName="M_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldCaption="M Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
+      <Field FldName="CustomerType" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="40" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="LIKE" FldCaption="Customer Type" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="40" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="DateStamp" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="=" FldCaption="Date Stamp" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
     </Table>
     <Table TblName="BMessages" TblType="TABLE" TblGen="1" TblList="1" TblView="1" TblGridEdit="1" TblEdit="1" TblGridAdd="1" TblAdd="1" TblDelete="1" TblCaption="Messages" TblUpdatable="1" TblSrchType="BASIC" TblSearch="1" TblBasicSearch="1" TblExtendedBasicSearch="1" TblCopy="1" TblLoaded="1" TblShowEmptyRows="0" TblUseGlobal="1" TblRecPerPage="20" TblRecPerPageList="10,20,50,ALL" TblGrpPerPage="3" TblGrpPerPageList="1,2,3,5,ALL" TblPagerStyle="2" TblUseButtonsForLinks="1" TblUseDropDownForAction="1" TblUseDropDownForListOptions="1" TblUseDropDownForExport="1">
       <Field FldName="RSN" FldType="3" FldTypeName="int" NativeDataType="8" FldSupport="1" FldSort="0" FldSize="4" FldUniqueIdx="1" FldReq="1" FldIsPrimaryKey="1" FldAutoIncrement="1" FldValidate="INTEGER" FldRequired="1" FldGenerate="1" FldView="1" FldSearch="1" FldSrchOpr="USER SELECT" FldCaption="RSN" FldViewTag="FORMATTED TEXT" FldHtmlTag="NO" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldColumnWrap="0" FldOrderBy="1" FldOrder="DESC" />
@@ -307,6 +315,18 @@
       <Field FldName="M_Id" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldCaption="M Id" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentUserName()" FldMultiUpdate="1" />
       <Field FldName="M_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldCaption="M Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
     </Table>
+    <Table TblName="LkUpStatus" TblType="TABLE" TblGen="1" TblList="1" TblView="1" TblGridEdit="1" TblEdit="1" TblGridAdd="1" TblAdd="1" TblDelete="1" TblCaption="LkUp Status" TblUpdatable="1" TblSrchType="BASIC" TblSearch="1" TblBasicSearch="1" TblExtendedBasicSearch="1" TblCopy="1" TblLoaded="1" TblShowEmptyRows="0" TblUseGlobal="1" TblRecPerPage="20" TblRecPerPageList="10,20,50,ALL" TblGrpPerPage="3" TblGrpPerPageList="1,2,3,5,ALL" TblPagerStyle="2" TblUseButtonsForLinks="1" TblUseDropDownForAction="1" TblUseDropDownForListOptions="1" TblUseDropDownForExport="1">
+      <Field FldName="RSN" FldType="3" FldTypeName="int" NativeDataType="8" FldSupport="1" FldSort="0" FldSize="4" FldUniqueIdx="1" FldReq="1" FldIsPrimaryKey="1" FldAutoIncrement="1" FldValidate="INTEGER" FldRequired="1" FldGenerate="1" FldView="1" FldSrchOpr="USER SELECT" FldCaption="RSN" FldViewTag="FORMATTED TEXT" FldHtmlTag="NO" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldColumnWrap="0" FldOrderBy="1" FldOrder="DESC" />
+      <Field FldName="StatusCode" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="10" FldReq="1" FldAttribute="4" FldRequired="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldCaption="Status Code" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="10" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="Status" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="12" FldReq="1" FldAttribute="4" FldRequired="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldCaption="Status" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="12" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="Remarks" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="255" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldCaption="Remarks" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXTAREA" FldTagSize="30" FldTagMaxLength="255" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldMultiUpdate="1" />
+      <Field FldName="C_ID" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldCaption="C ID" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentUserName()" FldMultiUpdate="1" />
+      <Field FldName="C_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldCaption="C Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
+      <Field FldName="M_ID" FldType="202" FldTypeName="nvarchar" NativeDataType="12" FldSupport="1" FldSize="20" FldAttribute="36" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldBasicSearch="1" FldSrchOpr="USER SELECT" FldCaption="M ID" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagSize="30" FldTagMaxLength="20" FldSelectType="Values" FldTagAPrefix="None" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentUserName()" FldMultiUpdate="1" />
+      <Field FldName="M_Date" FldType="135" FldTypeName="datetime" NativeDataType="4" FldSupport="1" FldSize="8" FldAttribute="36" FldValidate="DATE" FldPopCalendar="1" FldGenerate="1" FldList="1" FldExport="1" FldView="1" FldEdit="1" FldAdd="1" FldAddOpt="1" FldSearch="1" FldSrchOpr="USER SELECT" FldCaption="M Date" FldViewTag="FORMATTED TEXT" FldHtmlTag="TEXT" FldTagMaxLength="0" FldSelectType="Values" FldTagAPrefix="None" FldFmtType="Date/Time" FldDtFormat="11" FldIncLeadDigit="-2" FldUseParen="-2" FldGpDigits="-2" FldQuoteS="'" FldQuoteE="'" FldAutoUpdateValue="CurrentDateTime()" FldMultiUpdate="1" />
+    </Table>
+    <Table TblName="lkupcustomertype" TblType="TABLE" TblBasicSearch="1" TblExtendedBasicSearch="1" TblShowEmptyRows="0" TblUseGlobal="1" TblRecPerPage="20" TblRecPerPageList="10,20,50,ALL" TblGrpPerPage="3" TblGrpPerPageList="1,2,3,5,ALL" TblPagerStyle="2" />
+    <Table TblName="tblCombinationFavorites" TblType="TABLE" TblBasicSearch="1" TblExtendedBasicSearch="1" TblShowEmptyRows="0" TblUseGlobal="1" TblRecPerPage="20" TblRecPerPageList="10,20,50,ALL" TblGrpPerPage="3" TblGrpPerPageList="1,2,3,5,ALL" TblPagerStyle="2" />
   </Database>
   <Extension Name="@aspnetmaker/datetimepicker" Template="@aspnetmaker/datetimepicker" XmlFile="datetimepicker.xml" Enabled="1">
     <ExtProject>
@@ -339,9 +359,27 @@
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <ExtTable TblName="tblCustomer">
+          <ExtField FldName="Category">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="EmailID">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <ExtTable TblName="tblCpreviews">
+          <ExtField FldName="ShadeCode4">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="ShadeCode5">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="ShadeCode6">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="PreviewID">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <ExtTable TblName="tblAlbum">
@@ -372,6 +410,15 @@
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <ExtTable TblName="PreviewsIN">
+          <ExtField FldName="CustomerType">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="DateStamp">
+            <Properties><![CDATA[[{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <Properties><![CDATA[[]]]></Properties>
+        </ExtTable>
+        <ExtTable TblName="LkUpStatus">
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <Properties><![CDATA[[]]]></Properties>
@@ -440,6 +487,9 @@
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <ExtTable TblName="PreviewsIN">
+          <Properties><![CDATA[[]]]></Properties>
+        </ExtTable>
+        <ExtTable TblName="LkUpStatus">
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <Properties><![CDATA[[]]]></Properties>
@@ -859,6 +909,12 @@
           <ExtField FldName="M_Date">
             <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
           </ExtField>
+          <ExtField FldName="Category">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="EmailID">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <ExtTable TblName="tblCpreviews">
@@ -899,6 +955,18 @@
             <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
           </ExtField>
           <ExtField FldName="M_Date">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="ShadeCode4">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="ShadeCode5">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="ShadeCode6">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="PreviewID">
             <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
           </ExtField>
           <Properties><![CDATA[[]]]></Properties>
@@ -994,6 +1062,15 @@
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <ExtTable TblName="PreviewsIN">
+          <ExtField FldName="CustomerType">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <ExtField FldName="DateStamp">
+            <Properties><![CDATA[[{"Id":"Step","Type":"Integer","Value":15},{"Id":"Options","Type":"String","Value":""}]]]></Properties>
+          </ExtField>
+          <Properties><![CDATA[[]]]></Properties>
+        </ExtTable>
+        <ExtTable TblName="LkUpStatus">
           <Properties><![CDATA[[]]]></Properties>
         </ExtTable>
         <Properties><![CDATA[[]]]></Properties>
@@ -1016,6 +1093,7 @@ IsModal = false;
   <Menu MenuID="7" MenuText="LkUp Album Group" MenuParentID="14" MenuGroup="0" MenuSource="" MenuExtUrl="" MenuAnonymous="0" MenuSecurity="" MenuUrl="LkUpAlbumGroup" MenuType="" MenuCustomUrl="0" MenuLevel="1" MenuShow="1" MenuDisplayOrder="100" MenuIconClass="" MenuNavbar="0" />
   <Menu MenuID="8" MenuText="LkUp FanDeck" MenuParentID="14" MenuGroup="0" MenuSource="" MenuExtUrl="" MenuAnonymous="0" MenuSecurity="" MenuUrl="lkupfandeck" MenuType="" MenuCustomUrl="0" MenuLevel="1" MenuShow="1" MenuDisplayOrder="200" MenuIconClass="" MenuNavbar="0" />
   <Menu MenuID="20" MenuText="LkUp Options" MenuParentID="14" MenuGroup="0" MenuSource="" MenuExtUrl="" MenuAnonymous="0" MenuSecurity="" MenuUrl="LkUpOptions" MenuType="" MenuCustomUrl="0" MenuLevel="1" MenuShow="1" MenuDisplayOrder="300" MenuIconClass="" MenuNavbar="0" />
+  <Menu MenuID="22" MenuText="LkUp Status" MenuParentID="14" MenuGroup="0" MenuSource="" MenuExtUrl="" MenuAnonymous="0" MenuSecurity="" MenuUrl="LkUpStatus" MenuType="" MenuCustomUrl="0" MenuLevel="1" MenuShow="1" MenuDisplayOrder="400" MenuIconClass="" MenuNavbar="0" />
   <Menu MenuID="12" MenuText="Album" MenuParentID="-1" MenuGroup="0" MenuSource="" MenuExtUrl="" MenuAnonymous="0" MenuSecurity="" MenuUrl="tblAlbum" MenuType="" MenuCustomUrl="0" MenuLevel="0" MenuShow="1" MenuDisplayOrder="700" MenuIconClass="" MenuNavbar="0" />
   <Menu MenuID="15" MenuText="Image Upload" MenuParentID="-1" MenuGroup="0" MenuSource="" MenuExtUrl="" MenuAnonymous="0" MenuSecurity="" MenuUrl="tblImageupload" MenuType="" MenuCustomUrl="0" MenuLevel="0" MenuShow="1" MenuDisplayOrder="800" MenuIconClass="" MenuNavbar="0" />
   <Menu MenuID="10" MenuText="Customer" MenuParentID="-1" MenuGroup="0" MenuSource="" MenuExtUrl="" MenuAnonymous="0" MenuSecurity="" MenuUrl="tblCustomer" MenuType="" MenuCustomUrl="0" MenuLevel="0" MenuShow="1" MenuDisplayOrder="900" MenuIconClass="" MenuNavbar="0" />
